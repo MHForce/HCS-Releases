@@ -1,0 +1,948 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HCS/1.1.11.15": {
+        "dependencies": {
+          "CertificateImporting": "1.1.11.15",
+          "ControlSystem": "1.1.11.15",
+          "DataExporter": "1.1.11.15",
+          "GeneralEventArgs": "1.1.11.15",
+          "Helpers": "1.1.11.15",
+          "MaterialSkin.2": "2.3.1",
+          "NLog": "5.1.4",
+          "ProgramInterface": "1.1.11.15",
+          "SpreadsheetFunctions": "1.1.11.15",
+          "System.Speech": "8.0.0-preview.3.23174.8",
+          "System.Windows.Forms.DataVisualization": "1.0.0-prerelease.20110.1",
+          "ControlSystem.Reference": "1.0.0.0",
+          "Interop.WMPLib": "1.0.0.0",
+          "AxInterop.WMPLib": "1.0.0.0"
+        },
+        "runtime": {
+          "HCS.dll": {}
+        }
+      },
+      "CsvHelper/31.0.2": {
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "assemblyVersion": "31.0.0.0",
+            "fileVersion": "31.0.2.15"
+          }
+        }
+      },
+      "Emgu.CV/4.7.0.5276": {
+        "runtime": {
+          "lib/netstandard2.0/Emgu.CV.dll": {
+            "assemblyVersion": "4.7.0.5276",
+            "fileVersion": "4.7.0.5276"
+          }
+        }
+      },
+      "Emgu.CV.runtime.windows/4.7.0.5276": {
+        "dependencies": {
+          "Emgu.CV": "4.7.0.5276",
+          "Emgu.runtime.windows.msvc.rt.arm64": "19.35.32217.1",
+          "Emgu.runtime.windows.msvc.rt.x64": "19.35.32217.1",
+          "Emgu.runtime.windows.msvc.rt.x86": "19.35.32217.1"
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/cvextern.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "4.7.0.5276"
+          },
+          "runtimes/win-x64/native/cvextern.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.7.0.5276"
+          },
+          "runtimes/win-x64/native/opencv_videoio_ffmpeg470_64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2022.12.0.0"
+          },
+          "runtimes/win-x86/native/cvextern.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "4.7.0.5276"
+          },
+          "runtimes/win-x86/native/opencv_videoio_ffmpeg470.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "2022.12.0.0"
+          }
+        }
+      },
+      "Emgu.runtime.windows.msvc.rt.arm64/19.35.32217.1": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/concrt140.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-arm64/native/msvcp140.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-arm64/native/msvcp140_1.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-arm64/native/msvcp140_2.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-arm64/native/msvcp140_atomic_wait.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-arm64/native/msvcp140_codecvt_ids.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-arm64/native/vcruntime140.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-arm64/native/vcruntime140_1.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          }
+        }
+      },
+      "Emgu.runtime.windows.msvc.rt.x64/19.35.32217.1": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/concrt140.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x64/native/msvcp140.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x64/native/msvcp140_1.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x64/native/msvcp140_2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x64/native/msvcp140_atomic_wait.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x64/native/msvcp140_codecvt_ids.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x64/native/vcruntime140.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x64/native/vcruntime140_1.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          }
+        }
+      },
+      "Emgu.runtime.windows.msvc.rt.x86/19.35.32217.1": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/concrt140.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x86/native/msvcp140.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x86/native/msvcp140_1.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x86/native/msvcp140_2.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x86/native/msvcp140_atomic_wait.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x86/native/msvcp140_codecvt_ids.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          },
+          "runtimes/win-x86/native/vcruntime140.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "14.34.31938.0"
+          }
+        }
+      },
+      "MaterialSkin.2/2.3.1": {
+        "runtime": {
+          "lib/net5.0-windows7.0/MaterialSkin.dll": {
+            "assemblyVersion": "2.3.1.0",
+            "fileVersion": "2.3.1.0"
+          }
+        }
+      },
+      "MathNet.Numerics/5.0.0": {
+        "runtime": {
+          "lib/net6.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4795.1000"
+          }
+        }
+      },
+      "MicrosoftOfficeCore/15.0.0": {
+        "runtime": {
+          "lib/net35/Office.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4420.1017"
+          }
+        }
+      },
+      "NLog/5.1.4": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.4.1703"
+          }
+        }
+      },
+      "PdfPig/0.1.8-alpha-20230423-3898f": {
+        "runtime": {
+          "lib/net6.0/UglyToad.PdfPig.Core.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.DocumentLayoutAnalysis.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.Fonts.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.Package.dll": {
+            "assemblyVersion": "0.1.5.0",
+            "fileVersion": "0.1.5.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.Tokenization.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.Tokens.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          }
+        }
+      },
+      "runtime.linux-arm.runtime.native.System.IO.Ports/8.0.0": {
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-arm64.runtime.native.System.IO.Ports/8.0.0": {
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-x64.runtime.native.System.IO.Ports/8.0.0": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.native.System.IO.Ports/8.0.0": {
+        "dependencies": {
+          "runtime.linux-arm.runtime.native.System.IO.Ports": "8.0.0",
+          "runtime.linux-arm64.runtime.native.System.IO.Ports": "8.0.0",
+          "runtime.linux-x64.runtime.native.System.IO.Ports": "8.0.0",
+          "runtime.osx-arm64.runtime.native.System.IO.Ports": "8.0.0",
+          "runtime.osx-x64.runtime.native.System.IO.Ports": "8.0.0"
+        }
+      },
+      "runtime.osx-arm64.runtime.native.System.IO.Ports/8.0.0": {
+        "runtimeTargets": {
+          "runtimes/osx-arm64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.osx-x64.runtime.native.System.IO.Ports/8.0.0": {
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.CodeDom/9.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "System.IO.Ports/8.0.0": {
+        "dependencies": {
+          "runtime.native.System.IO.Ports": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.IO.Ports.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net6.0/System.IO.Ports.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          },
+          "runtimes/win/lib/net6.0/System.IO.Ports.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Management/9.0.4": {
+        "dependencies": {
+          "System.CodeDom": "9.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "System.Reactive/6.0.0-preview.13": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "System.Reactive.Linq/6.0.0-preview.13": {
+        "dependencies": {
+          "System.Reactive": "6.0.0-preview.13"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reactive.Linq.dll": {
+            "assemblyVersion": "3.0.6000.0",
+            "fileVersion": "3.0.6000.0"
+          }
+        }
+      },
+      "System.Speech/8.0.0-preview.3.23174.8": {
+        "runtime": {
+          "lib/net6.0/System.Speech.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "8.0.23.17408"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Speech.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "8.0.23.17408"
+          }
+        }
+      },
+      "System.Windows.Forms.DataVisualization/1.0.0-prerelease.20110.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Forms.DataVisualization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20.11001"
+          }
+        }
+      },
+      "Attributes/1.1.11.15": {
+        "runtime": {
+          "Attributes.dll": {
+            "assemblyVersion": "1.1.11.15",
+            "fileVersion": "1.1.11.15"
+          }
+        }
+      },
+      "CalibrationCalcs/1.1.11.15": {
+        "dependencies": {
+          "MathNet.Numerics": "5.0.0"
+        },
+        "runtime": {
+          "CalibrationCalcs.dll": {
+            "assemblyVersion": "1.1.11.15",
+            "fileVersion": "1.1.11.15"
+          }
+        }
+      },
+      "CertificateImporting/1.1.11.15": {
+        "dependencies": {
+          "PdfPig": "0.1.8-alpha-20230423-3898f",
+          "Utils": "1.1.11.15"
+        },
+        "runtime": {
+          "CertificateImporting.dll": {
+            "assemblyVersion": "1.1.11.15",
+            "fileVersion": "1.1.11.15"
+          }
+        }
+      },
+      "ControlSystem/1.1.11.15": {
+        "dependencies": {
+          "NLog": "5.1.4"
+        },
+        "runtime": {
+          "ControlSystem.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "DataExporter/1.1.11.15": {
+        "dependencies": {
+          "CsvHelper": "31.0.2",
+          "MaterialSkin.2": "2.3.1",
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001",
+          "MicrosoftOfficeCore": "15.0.0"
+        },
+        "runtime": {
+          "DataExporter.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GeneralEventArgs/1.1.11.15": {
+        "dependencies": {
+          "NLog": "5.1.4"
+        },
+        "runtime": {
+          "GeneralEventArgs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "HardwareMessageHandler/1.1.11.15": {
+        "dependencies": {
+          "GeneralEventArgs": "1.1.11.15",
+          "NLog": "5.1.4",
+          "System.IO.Ports": "8.0.0"
+        },
+        "runtime": {
+          "HardwareMessageHandler.dll": {
+            "assemblyVersion": "1.1.11.15",
+            "fileVersion": "1.1.11.15"
+          }
+        }
+      },
+      "Helpers/1.1.11.15": {
+        "runtime": {
+          "Helpers.dll": {
+            "assemblyVersion": "1.1.11.15",
+            "fileVersion": "1.1.11.15"
+          }
+        }
+      },
+      "IOModules/1.1.11.15": {
+        "dependencies": {
+          "GeneralEventArgs": "1.1.11.15",
+          "HardwareMessageHandler": "1.1.11.15",
+          "NLog": "5.1.4",
+          "System.IO.Ports": "8.0.0",
+          "System.Management": "9.0.4",
+          "VCOMHelpers": "1.1.11.15"
+        },
+        "runtime": {
+          "IOModules.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meters/1.1.11.15": {
+        "dependencies": {
+          "Attributes": "1.1.11.15",
+          "Emgu.CV.runtime.windows": "4.7.0.5276",
+          "GeneralEventArgs": "1.1.11.15",
+          "HardwareMessageHandler": "1.1.11.15",
+          "NLog": "5.1.4",
+          "System.IO.Ports": "8.0.0",
+          "VCOMHelpers": "1.1.11.15"
+        },
+        "runtime": {
+          "Meters.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ProgramInterface/1.1.11.15": {
+        "dependencies": {
+          "Attributes": "1.1.11.15",
+          "CalibrationCalcs": "1.1.11.15",
+          "ControlSystem": "1.1.11.15",
+          "GeneralEventArgs": "1.1.11.15",
+          "Helpers": "1.1.11.15",
+          "Meters": "1.1.11.15",
+          "NLog": "5.1.4",
+          "UCMController": "1.1.11.15",
+          "VCOMHelpers": "1.1.11.15"
+        },
+        "runtime": {
+          "ProgramInterface.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SpreadsheetFunctions/1.1.11.15": {
+        "dependencies": {
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001",
+          "MicrosoftOfficeCore": "15.0.0"
+        },
+        "runtime": {
+          "SpreadsheetFunctions.dll": {
+            "assemblyVersion": "1.1.11.15",
+            "fileVersion": "1.1.11.15"
+          }
+        }
+      },
+      "StepperDrivers/1.1.11.15": {
+        "dependencies": {
+          "GeneralEventArgs": "1.1.11.15",
+          "HardwareMessageHandler": "1.1.11.15",
+          "NLog": "5.1.4",
+          "System.IO.Ports": "8.0.0",
+          "VCOMHelpers": "1.1.11.15"
+        },
+        "runtime": {
+          "StepperDrivers.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UCMController/1.1.11.15": {
+        "dependencies": {
+          "ControlSystem": "1.1.11.15",
+          "CsvHelper": "31.0.2",
+          "GeneralEventArgs": "1.1.11.15",
+          "IOModules": "1.1.11.15",
+          "Meters": "1.1.11.15",
+          "NLog": "5.1.4",
+          "StepperDrivers": "1.1.11.15",
+          "System.Reactive.Linq": "6.0.0-preview.13",
+          "VCOMHelpers": "1.1.11.15",
+          "VFDs": "1.1.11.15"
+        },
+        "runtime": {
+          "UCMController.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Utils/1.1.11.15": {
+        "runtime": {
+          "Utils.dll": {
+            "assemblyVersion": "1.1.11.15",
+            "fileVersion": "1.1.11.15"
+          }
+        }
+      },
+      "VCOMHelpers/1.1.11.15": {
+        "dependencies": {
+          "NLog": "5.1.4",
+          "System.IO.Ports": "8.0.0"
+        },
+        "runtime": {
+          "VCOMHelpers.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "VFDs/1.1.11.15": {
+        "dependencies": {
+          "GeneralEventArgs": "1.1.11.15",
+          "HardwareMessageHandler": "1.1.11.15",
+          "VCOMHelpers": "1.1.11.15"
+        },
+        "runtime": {
+          "VFDs.dll": {
+            "assemblyVersion": "1.1.11.15",
+            "fileVersion": "1.1.11.15"
+          }
+        }
+      },
+      "ControlSystem.Reference/1.0.0.0": {
+        "runtime": {
+          "ControlSystem.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.WMPLib/1.0.0.0": {
+        "runtime": {
+          "Interop.WMPLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AxInterop.WMPLib/1.0.0.0": {
+        "runtime": {
+          "AxInterop.WMPLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HCS/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/31.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ndlIN77XcFm6qqGlNPzl0XjVupMCBVhVSiO+1+X2UhJtnnvkx9f//7FOvlkLuEQ76NC3Y7owa8IOhgtKVa4H7Q==",
+      "path": "csvhelper/31.0.2",
+      "hashPath": "csvhelper.31.0.2.nupkg.sha512"
+    },
+    "Emgu.CV/4.7.0.5276": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7Tjxkw57JyOyoUHIcnVzAIgCPRSBod9uq/N4gYS0HX9Qrf6OBX3+ePMSLNj1P1/4o5FW7Wz8NqptVGlIbqovOA==",
+      "path": "emgu.cv/4.7.0.5276",
+      "hashPath": "emgu.cv.4.7.0.5276.nupkg.sha512"
+    },
+    "Emgu.CV.runtime.windows/4.7.0.5276": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SWg2+YQuvgZQAHtg/SqxvjNjhPCMi5qoFwUTPU71CqgtRJQLrvQBkSK6htGbgikvdma6oVuc995/UTlde99ZiQ==",
+      "path": "emgu.cv.runtime.windows/4.7.0.5276",
+      "hashPath": "emgu.cv.runtime.windows.4.7.0.5276.nupkg.sha512"
+    },
+    "Emgu.runtime.windows.msvc.rt.arm64/19.35.32217.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RdocuSNxIriYWTfVuBCEnOSEwpDQ9SMbCu9baMx/Zf227U1OoOH5J5xNDrXgEaV6bkWJXwRaxStwYJf7oRUVkA==",
+      "path": "emgu.runtime.windows.msvc.rt.arm64/19.35.32217.1",
+      "hashPath": "emgu.runtime.windows.msvc.rt.arm64.19.35.32217.1.nupkg.sha512"
+    },
+    "Emgu.runtime.windows.msvc.rt.x64/19.35.32217.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SlJMrQxWDeCnE+EVqoMyFdEYoC/BRp1L4MME/USM8Lmj0W4V8BP3L7qBDQTI1ssULlc7iCLXmueRnJtzQ5957A==",
+      "path": "emgu.runtime.windows.msvc.rt.x64/19.35.32217.1",
+      "hashPath": "emgu.runtime.windows.msvc.rt.x64.19.35.32217.1.nupkg.sha512"
+    },
+    "Emgu.runtime.windows.msvc.rt.x86/19.35.32217.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-prVzHcx3Ge6TSxq9f0HN2P0imSDo8IF+hyEiqa9dx6t8TSRwF0hl56WhUvEFvU7SPE5wq2zVyAVCQ2KHziQa1w==",
+      "path": "emgu.runtime.windows.msvc.rt.x86/19.35.32217.1",
+      "hashPath": "emgu.runtime.windows.msvc.rt.x86.19.35.32217.1.nupkg.sha512"
+    },
+    "MaterialSkin.2/2.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w2vFxLNk4InCDU7pXDfBqPfv55HhBtuu8HRfEqQpeS3sNTS1pUzDs/hS0b5JW2/tKvt+P1of9OINP8a9omWDBg==",
+      "path": "materialskin.2/2.3.1",
+      "hashPath": "materialskin.2.2.3.1.nupkg.sha512"
+    },
+    "MathNet.Numerics/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pg1W2VwaEQMAiTpGK840hZgzavnqjlCMTVSbtVCXVyT+7AX4mc1o89SPv4TBlAjhgCOo9c1Y+jZ5m3ti2YgGgA==",
+      "path": "mathnet.numerics/5.0.0",
+      "hashPath": "mathnet.numerics.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cuvqi/U5MYSM0gvR2l90q0m/urRgmg69EiwP5VWp1RcaJ0YT5G26Va5LaOZ3KJFc22FNihS5CUjeePUp2YpGQA==",
+      "path": "microsoft.office.interop.excel/15.0.4795.1001",
+      "hashPath": "microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+    },
+    "MicrosoftOfficeCore/15.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/KgYw8uvv0Ut8FPvyEa1XJ/TrLSRgvTv3JgC2IT0/8NwoICzbEJWfmfwsE6Dwi8WH0jVkTEO7zRvGvaKqUOhqQ==",
+      "path": "microsoftofficecore/15.0.0",
+      "hashPath": "microsoftofficecore.15.0.0.nupkg.sha512"
+    },
+    "NLog/5.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ki0XThITEd//RrQ21yi1HB/Uid4pzTRE5YLvEpk91d0vDXp3OPtVCvWgrYsqqcpTwiipFSOLSsU1RblaexrFiA==",
+      "path": "nlog/5.1.4",
+      "hashPath": "nlog.5.1.4.nupkg.sha512"
+    },
+    "PdfPig/0.1.8-alpha-20230423-3898f": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yo8BVDCQjshwfDjv7eRaIp5PiqI2mq/NbOm4ebKQZtHRiTeDb/BWMkTk2UVIUYunzuL0cPNCqKSiRDq+kDXxzQ==",
+      "path": "pdfpig/0.1.8-alpha-20230423-3898f",
+      "hashPath": "pdfpig.0.1.8-alpha-20230423-3898f.nupkg.sha512"
+    },
+    "runtime.linux-arm.runtime.native.System.IO.Ports/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gK720fg6HemDg8sXcfy+xCMZ9+hF78Gc7BmREbmkS4noqlu1BAr9qZtuWGhLzFjBfgecmdtl4+SYVwJ1VneZBQ==",
+      "path": "runtime.linux-arm.runtime.native.system.io.ports/8.0.0",
+      "hashPath": "runtime.linux-arm.runtime.native.system.io.ports.8.0.0.nupkg.sha512"
+    },
+    "runtime.linux-arm64.runtime.native.System.IO.Ports/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KYG6/3ojhEWbb3FwQAKgGWPHrY+HKUXXdVjJlrtyCLn3EMcNTaNcPadb2c0ndQzixZSmAxZKopXJr0nLwhOrpQ==",
+      "path": "runtime.linux-arm64.runtime.native.system.io.ports/8.0.0",
+      "hashPath": "runtime.linux-arm64.runtime.native.system.io.ports.8.0.0.nupkg.sha512"
+    },
+    "runtime.linux-x64.runtime.native.System.IO.Ports/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wnw5vhA4mgGbIFoo6l9Fk3iEcwRSq49a1aKwJgXUCUtEQLCSUDjTGSxqy/oMUuOyyn7uLHsH8KgZzQ1y3lReiQ==",
+      "path": "runtime.linux-x64.runtime.native.system.io.ports/8.0.0",
+      "hashPath": "runtime.linux-x64.runtime.native.system.io.ports.8.0.0.nupkg.sha512"
+    },
+    "runtime.native.System.IO.Ports/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ee7Sz5llLpTgyKIWzKI/GeuRSbFkOABgJRY00SqTY0OkTYtkB+9l5rFZfE7fxPA3c22RfytCBYkUdAkcmwMjQg==",
+      "path": "runtime.native.system.io.ports/8.0.0",
+      "hashPath": "runtime.native.system.io.ports.8.0.0.nupkg.sha512"
+    },
+    "runtime.osx-arm64.runtime.native.System.IO.Ports/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rbUBLAaFW9oVkbsb0+XSrAo2QdhBeAyzLl5KQ6Oci9L/u626uXGKInsVJG6B9Z5EO8bmplC8tsMiaHK8wOBZ+w==",
+      "path": "runtime.osx-arm64.runtime.native.system.io.ports/8.0.0",
+      "hashPath": "runtime.osx-arm64.runtime.native.system.io.ports.8.0.0.nupkg.sha512"
+    },
+    "runtime.osx-x64.runtime.native.System.IO.Ports/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IcfB4jKtM9pkzP9OpYelEcUX1MiDt0IJPBh3XYYdEISFF+6Mc+T8WWi0dr9wVh1gtcdVjubVEIBgB8BHESlGfQ==",
+      "path": "runtime.osx-x64.runtime.native.system.io.ports/8.0.0",
+      "hashPath": "runtime.osx-x64.runtime.native.system.io.ports.8.0.0.nupkg.sha512"
+    },
+    "System.CodeDom/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aJdv7Z87PoPW8ijvGIincocooYRbH3Umtlz7OrJKf6GDInbdu1bvk5X1fFlmbl7WP+9ntoIBd7NjKz+siVFdHA==",
+      "path": "system.codedom/9.0.4",
+      "hashPath": "system.codedom.9.0.4.nupkg.sha512"
+    },
+    "System.IO.Ports/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MaiPbx2/QXZc62gm/DrajRrGPG1lU4m08GWMoWiymPYM+ba4kfACp2PbiYpqJ4QiFGhHD00zX3RoVDTucjWe9g==",
+      "path": "system.io.ports/8.0.0",
+      "hashPath": "system.io.ports.8.0.0.nupkg.sha512"
+    },
+    "System.Management/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MfY9+SrkSvchAoFiChTkhQYCAjBaQQ9u3LwiKmho7oTbujucnxCzORlPgLhId/ChLSptsQ/1UmtPGLZaKYVdsA==",
+      "path": "system.management/9.0.4",
+      "hashPath": "system.management.9.0.4.nupkg.sha512"
+    },
+    "System.Reactive/6.0.0-preview.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w5sHFBL7rVKG57gDrznXiBcN+JfGnTp+9rgtu2IOa4OYsjr2vZKq/ap7MaUlBFttiHghBLZfDxrG8I9hxup+9g==",
+      "path": "system.reactive/6.0.0-preview.13",
+      "hashPath": "system.reactive.6.0.0-preview.13.nupkg.sha512"
+    },
+    "System.Reactive.Linq/6.0.0-preview.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8/qYTJQz/YYBl0CBEJqTJgZTGaX12lBYf94k64znqzYniW+Gkxj7W6Wsd0hHXogLGwO0x8GqLisTvT3y3E1q+w==",
+      "path": "system.reactive.linq/6.0.0-preview.13",
+      "hashPath": "system.reactive.linq.6.0.0-preview.13.nupkg.sha512"
+    },
+    "System.Speech/8.0.0-preview.3.23174.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2jRr0Oig3W3iyuDE/4Jq9SfyfX0/SrfZp+6RnIhgyr0VtRL7AwP573rzTTderoUK7rLBPa9SSP6/myxWfkWUng==",
+      "path": "system.speech/8.0.0-preview.3.23174.8",
+      "hashPath": "system.speech.8.0.0-preview.3.23174.8.nupkg.sha512"
+    },
+    "System.Windows.Forms.DataVisualization/1.0.0-prerelease.20110.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1EdLFl/I5QobO4shpqUNslDGWTeRbpt3pLMSkiLQYzdWBDqf44/8TM5hXMtkA8ktHU80aVZYVEuxr8vJqcB1Ig==",
+      "path": "system.windows.forms.datavisualization/1.0.0-prerelease.20110.1",
+      "hashPath": "system.windows.forms.datavisualization.1.0.0-prerelease.20110.1.nupkg.sha512"
+    },
+    "Attributes/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalibrationCalcs/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CertificateImporting/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlSystem/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataExporter/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeneralEventArgs/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HardwareMessageHandler/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Helpers/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IOModules/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meters/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProgramInterface/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpreadsheetFunctions/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StepperDrivers/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UCMController/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utils/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VCOMHelpers/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VFDs/1.1.11.15": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlSystem.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.WMPLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AxInterop.WMPLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
