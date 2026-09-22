@@ -1,0 +1,695 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {},
+    ".NETCoreApp,Version=v10.0/win-x64": {
+      "HCS/1.1.13.2": {
+        "dependencies": {
+          "CertificateImporting": "1.1.13.2",
+          "ControlSystem": "1.1.13.2",
+          "DataExporter": "1.1.13.2",
+          "GeneralEventArgs": "1.1.13.2",
+          "Helpers": "1.1.13.2",
+          "MaterialSkin.2": "2.3.1",
+          "NLog": "5.1.4",
+          "ProgramInterface": "1.1.13.2",
+          "SpreadsheetFunctions": "1.1.13.2",
+          "System.Management": "10.0.9",
+          "System.Speech": "8.0.0-preview.3.23174.8",
+          "System.Windows.Forms.DataVisualization": "1.0.0-prerelease.20110.1",
+          "ControlSystem.Reference": "1.0.0.0",
+          "Interop.WMPLib": "1.0.0.0",
+          "AxInterop.WMPLib": "1.0.0.0"
+        },
+        "runtime": {
+          "HCS.dll": {}
+        }
+      },
+      "CalibrationCalcs/1.0.0": {
+        "dependencies": {
+          "MathNet.Numerics": "5.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/CalibrationCalcs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CsvHelper/31.0.2": {
+        "runtime": {
+          "lib/net8.0/CsvHelper.dll": {
+            "assemblyVersion": "31.0.0.0",
+            "fileVersion": "31.0.2.15"
+          }
+        }
+      },
+      "MaterialSkin.2/2.3.1": {
+        "runtime": {
+          "lib/net5.0-windows7.0/MaterialSkin.dll": {
+            "assemblyVersion": "2.3.1.0",
+            "fileVersion": "2.3.1.0"
+          }
+        }
+      },
+      "MathNet.Numerics/5.0.0": {
+        "runtime": {
+          "lib/net6.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4795.1000"
+          }
+        }
+      },
+      "MicrosoftOfficeCore/15.0.0": {
+        "runtime": {
+          "lib/net35/Office.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4420.1017"
+          }
+        }
+      },
+      "NLog/5.1.4": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.4.1703"
+          }
+        }
+      },
+      "PdfPig/0.1.8-alpha-20230423-3898f": {
+        "runtime": {
+          "lib/net6.0/UglyToad.PdfPig.Core.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.DocumentLayoutAnalysis.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.Fonts.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.Package.dll": {
+            "assemblyVersion": "0.1.5.0",
+            "fileVersion": "0.1.5.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.Tokenization.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.Tokens.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          },
+          "lib/net6.0/UglyToad.PdfPig.dll": {
+            "assemblyVersion": "0.1.8.0",
+            "fileVersion": "0.1.8.0"
+          }
+        }
+      },
+      "SharpGen.Runtime/2.4.2-beta": {
+        "runtime": {
+          "lib/net9.0/SharpGen.Runtime.dll": {
+            "assemblyVersion": "2.4.2.0",
+            "fileVersion": "2.4.2.0"
+          }
+        }
+      },
+      "SharpGen.Runtime.COM/2.4.2-beta": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta"
+        },
+        "runtime": {
+          "lib/net9.0/SharpGen.Runtime.COM.dll": {
+            "assemblyVersion": "2.4.2.0",
+            "fileVersion": "2.4.2.0"
+          }
+        }
+      },
+      "System.IO.Ports/8.0.0": {
+        "runtime": {
+          "runtimes/win/lib/net8.0/System.IO.Ports.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Management/10.0.9": {
+        "runtime": {
+          "runtimes/win/lib/net10.0/System.Management.dll": {
+            "assemblyVersion": "10.0.0.9",
+            "fileVersion": "10.0.926.27113"
+          }
+        }
+      },
+      "System.Reactive/6.0.0-preview.13": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "System.Reactive.Linq/6.0.0-preview.13": {
+        "dependencies": {
+          "System.Reactive": "6.0.0-preview.13"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reactive.Linq.dll": {
+            "assemblyVersion": "3.0.6000.0",
+            "fileVersion": "3.0.6000.0"
+          }
+        }
+      },
+      "System.Speech/8.0.0-preview.3.23174.8": {
+        "runtime": {
+          "runtimes/win/lib/net8.0/System.Speech.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "8.0.23.17408"
+          }
+        }
+      },
+      "System.Windows.Forms.DataVisualization/1.0.0-prerelease.20110.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Forms.DataVisualization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20.11001"
+          }
+        }
+      },
+      "Vortice.DirectX/3.8.3": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "SharpGen.Runtime.COM": "2.4.2-beta",
+          "Vortice.Mathematics": "2.1.0"
+        },
+        "runtime": {
+          "lib/net10.0/Vortice.DirectX.dll": {
+            "assemblyVersion": "3.8.3.0",
+            "fileVersion": "3.8.3.0"
+          }
+        }
+      },
+      "Vortice.Mathematics/2.1.0": {
+        "runtime": {
+          "lib/net10.0/Vortice.Mathematics.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Vortice.MediaFoundation/3.8.3": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DirectX": "3.8.3"
+        },
+        "runtime": {
+          "lib/net10.0/Vortice.MediaFoundation.dll": {
+            "assemblyVersion": "3.8.3.0",
+            "fileVersion": "3.8.3.0"
+          }
+        }
+      },
+      "Attributes/1.1.13.2": {
+        "runtime": {
+          "Attributes.dll": {
+            "assemblyVersion": "1.1.13.2",
+            "fileVersion": "1.1.13.2"
+          }
+        }
+      },
+      "CertificateImporting/1.1.13.2": {
+        "dependencies": {
+          "PdfPig": "0.1.8-alpha-20230423-3898f",
+          "Utils": "1.1.13.2"
+        },
+        "runtime": {
+          "CertificateImporting.dll": {
+            "assemblyVersion": "1.1.13.2",
+            "fileVersion": "1.1.13.2"
+          }
+        }
+      },
+      "ControlSystem/1.1.13.2": {
+        "dependencies": {
+          "NLog": "5.1.4"
+        },
+        "runtime": {
+          "ControlSystem.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "DataExporter/1.1.13.2": {
+        "dependencies": {
+          "CsvHelper": "31.0.2",
+          "MaterialSkin.2": "2.3.1",
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001",
+          "MicrosoftOfficeCore": "15.0.0"
+        },
+        "runtime": {
+          "DataExporter.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GeneralEventArgs/1.1.13.2": {
+        "dependencies": {
+          "NLog": "5.1.4"
+        },
+        "runtime": {
+          "GeneralEventArgs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "HardwareMessageHandler/1.1.13.2": {
+        "dependencies": {
+          "GeneralEventArgs": "1.1.13.2",
+          "NLog": "5.1.4",
+          "System.IO.Ports": "8.0.0"
+        },
+        "runtime": {
+          "HardwareMessageHandler.dll": {
+            "assemblyVersion": "1.1.13.2",
+            "fileVersion": "1.1.13.2"
+          }
+        }
+      },
+      "Helpers/1.1.13.2": {
+        "runtime": {
+          "Helpers.dll": {
+            "assemblyVersion": "1.1.13.2",
+            "fileVersion": "1.1.13.2"
+          }
+        }
+      },
+      "IOModules/1.1.13.2": {
+        "dependencies": {
+          "GeneralEventArgs": "1.1.13.2",
+          "HardwareMessageHandler": "1.1.13.2",
+          "NLog": "5.1.4",
+          "System.IO.Ports": "8.0.0",
+          "System.Management": "10.0.9",
+          "VCOMHelpers": "1.1.13.2"
+        },
+        "runtime": {
+          "IOModules.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meters/1.1.13.2": {
+        "dependencies": {
+          "Attributes": "1.1.13.2",
+          "GeneralEventArgs": "1.1.13.2",
+          "HardwareMessageHandler": "1.1.13.2",
+          "NLog": "5.1.4",
+          "System.IO.Ports": "8.0.0",
+          "VCOMHelpers": "1.1.13.2",
+          "Vortice.MediaFoundation": "3.8.3"
+        },
+        "runtime": {
+          "Meters.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ProgramInterface/1.1.13.2": {
+        "dependencies": {
+          "Attributes": "1.1.13.2",
+          "CalibrationCalcs": "1.0.0",
+          "ControlSystem": "1.1.13.2",
+          "GeneralEventArgs": "1.1.13.2",
+          "Helpers": "1.1.13.2",
+          "Meters": "1.1.13.2",
+          "NLog": "5.1.4",
+          "UCMController": "1.1.13.2",
+          "VCOMHelpers": "1.1.13.2"
+        },
+        "runtime": {
+          "ProgramInterface.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SpreadsheetFunctions/1.1.13.2": {
+        "dependencies": {
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001",
+          "MicrosoftOfficeCore": "15.0.0"
+        },
+        "runtime": {
+          "SpreadsheetFunctions.dll": {
+            "assemblyVersion": "1.1.13.2",
+            "fileVersion": "1.1.13.2"
+          }
+        }
+      },
+      "StepperDrivers/1.1.13.2": {
+        "dependencies": {
+          "GeneralEventArgs": "1.1.13.2",
+          "HardwareMessageHandler": "1.1.13.2",
+          "NLog": "5.1.4",
+          "System.IO.Ports": "8.0.0",
+          "VCOMHelpers": "1.1.13.2"
+        },
+        "runtime": {
+          "StepperDrivers.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UCMController/1.1.13.2": {
+        "dependencies": {
+          "ControlSystem": "1.1.13.2",
+          "CsvHelper": "31.0.2",
+          "GeneralEventArgs": "1.1.13.2",
+          "IOModules": "1.1.13.2",
+          "Meters": "1.1.13.2",
+          "NLog": "5.1.4",
+          "StepperDrivers": "1.1.13.2",
+          "System.Reactive.Linq": "6.0.0-preview.13",
+          "VCOMHelpers": "1.1.13.2",
+          "VFDs": "1.1.13.2"
+        },
+        "runtime": {
+          "UCMController.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Utils/1.1.13.2": {
+        "runtime": {
+          "Utils.dll": {
+            "assemblyVersion": "1.1.13.2",
+            "fileVersion": "1.1.13.2"
+          }
+        }
+      },
+      "VCOMHelpers/1.1.13.2": {
+        "dependencies": {
+          "NLog": "5.1.4",
+          "System.IO.Ports": "8.0.0"
+        },
+        "runtime": {
+          "VCOMHelpers.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "VFDs/1.1.13.2": {
+        "dependencies": {
+          "GeneralEventArgs": "1.1.13.2",
+          "HardwareMessageHandler": "1.1.13.2",
+          "VCOMHelpers": "1.1.13.2"
+        },
+        "runtime": {
+          "VFDs.dll": {
+            "assemblyVersion": "1.1.13.2",
+            "fileVersion": "1.1.13.2"
+          }
+        }
+      },
+      "ControlSystem.Reference/1.0.0.0": {
+        "runtime": {
+          "ControlSystem.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.WMPLib/1.0.0.0": {
+        "runtime": {
+          "Interop.WMPLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AxInterop.WMPLib/1.0.0.0": {
+        "runtime": {
+          "AxInterop.WMPLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HCS/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalibrationCalcs/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5EuskqGwn91S+a7U7QSj8cnwz065AH/J3lKvrTs1UGEDgNoy47fGMtFN358mQc49pdHvJJG8mOH8i2WOcVnjSw==",
+      "path": "calibrationcalcs/1.0.0",
+      "hashPath": "calibrationcalcs.1.0.0.nupkg.sha512"
+    },
+    "CsvHelper/31.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ndlIN77XcFm6qqGlNPzl0XjVupMCBVhVSiO+1+X2UhJtnnvkx9f//7FOvlkLuEQ76NC3Y7owa8IOhgtKVa4H7Q==",
+      "path": "csvhelper/31.0.2",
+      "hashPath": "csvhelper.31.0.2.nupkg.sha512"
+    },
+    "MaterialSkin.2/2.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w2vFxLNk4InCDU7pXDfBqPfv55HhBtuu8HRfEqQpeS3sNTS1pUzDs/hS0b5JW2/tKvt+P1of9OINP8a9omWDBg==",
+      "path": "materialskin.2/2.3.1",
+      "hashPath": "materialskin.2.2.3.1.nupkg.sha512"
+    },
+    "MathNet.Numerics/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pg1W2VwaEQMAiTpGK840hZgzavnqjlCMTVSbtVCXVyT+7AX4mc1o89SPv4TBlAjhgCOo9c1Y+jZ5m3ti2YgGgA==",
+      "path": "mathnet.numerics/5.0.0",
+      "hashPath": "mathnet.numerics.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cuvqi/U5MYSM0gvR2l90q0m/urRgmg69EiwP5VWp1RcaJ0YT5G26Va5LaOZ3KJFc22FNihS5CUjeePUp2YpGQA==",
+      "path": "microsoft.office.interop.excel/15.0.4795.1001",
+      "hashPath": "microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+    },
+    "MicrosoftOfficeCore/15.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/KgYw8uvv0Ut8FPvyEa1XJ/TrLSRgvTv3JgC2IT0/8NwoICzbEJWfmfwsE6Dwi8WH0jVkTEO7zRvGvaKqUOhqQ==",
+      "path": "microsoftofficecore/15.0.0",
+      "hashPath": "microsoftofficecore.15.0.0.nupkg.sha512"
+    },
+    "NLog/5.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ki0XThITEd//RrQ21yi1HB/Uid4pzTRE5YLvEpk91d0vDXp3OPtVCvWgrYsqqcpTwiipFSOLSsU1RblaexrFiA==",
+      "path": "nlog/5.1.4",
+      "hashPath": "nlog.5.1.4.nupkg.sha512"
+    },
+    "PdfPig/0.1.8-alpha-20230423-3898f": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yo8BVDCQjshwfDjv7eRaIp5PiqI2mq/NbOm4ebKQZtHRiTeDb/BWMkTk2UVIUYunzuL0cPNCqKSiRDq+kDXxzQ==",
+      "path": "pdfpig/0.1.8-alpha-20230423-3898f",
+      "hashPath": "pdfpig.0.1.8-alpha-20230423-3898f.nupkg.sha512"
+    },
+    "SharpGen.Runtime/2.4.2-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-niTtWAUov1F7wZGAlVeEvW+Tnqvg5yTmhI7rxmYu2Utoyu2TbC9tWWpUpMs0PQg5lu5svoYpCAztNjxCqMFP/w==",
+      "path": "sharpgen.runtime/2.4.2-beta",
+      "hashPath": "sharpgen.runtime.2.4.2-beta.nupkg.sha512"
+    },
+    "SharpGen.Runtime.COM/2.4.2-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9lxDFMiepqo3lJQzMSjECCIONeCc2f3Drokgj6HtrTLZcJSftNgcLbD6/iXYj2iphkwgrZb1oLsDOZxoFZkawQ==",
+      "path": "sharpgen.runtime.com/2.4.2-beta",
+      "hashPath": "sharpgen.runtime.com.2.4.2-beta.nupkg.sha512"
+    },
+    "System.IO.Ports/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MaiPbx2/QXZc62gm/DrajRrGPG1lU4m08GWMoWiymPYM+ba4kfACp2PbiYpqJ4QiFGhHD00zX3RoVDTucjWe9g==",
+      "path": "system.io.ports/8.0.0",
+      "hashPath": "system.io.ports.8.0.0.nupkg.sha512"
+    },
+    "System.Management/10.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8mfTzHLlMHCqFE1+iFGzxRCeCb2gDqvRQtZthuksYB+z546QZaFCiagbJ2KXHe7dy5ZpCUg/usaIqc2DxiemPw==",
+      "path": "system.management/10.0.9",
+      "hashPath": "system.management.10.0.9.nupkg.sha512"
+    },
+    "System.Reactive/6.0.0-preview.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w5sHFBL7rVKG57gDrznXiBcN+JfGnTp+9rgtu2IOa4OYsjr2vZKq/ap7MaUlBFttiHghBLZfDxrG8I9hxup+9g==",
+      "path": "system.reactive/6.0.0-preview.13",
+      "hashPath": "system.reactive.6.0.0-preview.13.nupkg.sha512"
+    },
+    "System.Reactive.Linq/6.0.0-preview.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8/qYTJQz/YYBl0CBEJqTJgZTGaX12lBYf94k64znqzYniW+Gkxj7W6Wsd0hHXogLGwO0x8GqLisTvT3y3E1q+w==",
+      "path": "system.reactive.linq/6.0.0-preview.13",
+      "hashPath": "system.reactive.linq.6.0.0-preview.13.nupkg.sha512"
+    },
+    "System.Speech/8.0.0-preview.3.23174.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2jRr0Oig3W3iyuDE/4Jq9SfyfX0/SrfZp+6RnIhgyr0VtRL7AwP573rzTTderoUK7rLBPa9SSP6/myxWfkWUng==",
+      "path": "system.speech/8.0.0-preview.3.23174.8",
+      "hashPath": "system.speech.8.0.0-preview.3.23174.8.nupkg.sha512"
+    },
+    "System.Windows.Forms.DataVisualization/1.0.0-prerelease.20110.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1EdLFl/I5QobO4shpqUNslDGWTeRbpt3pLMSkiLQYzdWBDqf44/8TM5hXMtkA8ktHU80aVZYVEuxr8vJqcB1Ig==",
+      "path": "system.windows.forms.datavisualization/1.0.0-prerelease.20110.1",
+      "hashPath": "system.windows.forms.datavisualization.1.0.0-prerelease.20110.1.nupkg.sha512"
+    },
+    "Vortice.DirectX/3.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nKwSavv0w5rDF7prSefqAVPDcTyqrfZxKFMVfttiXPfm62VdA/1d+b3PhCZpW4xO7jXczXDwjQdWgD1zGsvM8w==",
+      "path": "vortice.directx/3.8.3",
+      "hashPath": "vortice.directx.3.8.3.nupkg.sha512"
+    },
+    "Vortice.Mathematics/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KK+SjNSuKdP+zbavekubi+vaeb1Jo4k87ZF6CMkVWjr6RjJwc8peVtmgzXXDIMy4ZC3ZISyk3llY3q65ISOkBQ==",
+      "path": "vortice.mathematics/2.1.0",
+      "hashPath": "vortice.mathematics.2.1.0.nupkg.sha512"
+    },
+    "Vortice.MediaFoundation/3.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TeAN7tKrf1XfUxXe1+fukRvPCTW53DQUxuPR0pZLivuhmLlFCgpvb+EQWfCKENnEwbJnL+OdrHxWn2qUZiYMuA==",
+      "path": "vortice.mediafoundation/3.8.3",
+      "hashPath": "vortice.mediafoundation.3.8.3.nupkg.sha512"
+    },
+    "Attributes/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CertificateImporting/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlSystem/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataExporter/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeneralEventArgs/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HardwareMessageHandler/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Helpers/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IOModules/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meters/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProgramInterface/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpreadsheetFunctions/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StepperDrivers/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UCMController/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utils/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VCOMHelpers/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VFDs/1.1.13.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlSystem.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.WMPLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AxInterop.WMPLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
